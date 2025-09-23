@@ -21,6 +21,7 @@ button {
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 address:hover,
@@ -40,16 +41,13 @@ button:active {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.accent-logo-header {
   color: #4d5ae5;
 }
 
-.accent-logo-header-two {
+.accent-logo-header {
   color: #2e2f42;
 }
 
@@ -60,7 +58,7 @@ button:active {
   color: #2e2f42;
 }
 
-address {
+.address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -68,7 +66,7 @@ address {
 /* ============ PAGE HEADER STYLES ============ */
 
 /* ============ HERO SECTION STYLES ============ */
-#title {
+.site-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -107,13 +105,23 @@ address {
 /* ============ BENEFITS SECTION STYLES /* ============ */
 
 /* ============ TEAM SECTION STYLES /* ============ */
-.section-title {
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.section-team-item {
+  background-color: #ffffff;
 }
 
 .team-names {
@@ -133,6 +141,16 @@ address {
 /* ============ TEAM SECTION STYLES /* ============ */
 
 /* ============ PORTFOLIO SECTION STYLES /* ============ */
+.portfolio-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -149,12 +167,17 @@ address {
 /* ============ PORTFOLIO SECTION STYLES /* ============ */
 
 /* ============ PORTFOLIO SECTION STYLES /* ============ */
-
-.accent-logo-footer {
+.site-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
-.accent-logo-footer-two {
+.accent-logo-footer {
   color: #f4f4fd;
 }
 
@@ -169,3 +192,7 @@ address {
 }
 
 /* ============ PORTFOLIO SECTION STYLES /* ============ */
+
+.accent-logo-header {
+  color: #2e2f42;
+}
